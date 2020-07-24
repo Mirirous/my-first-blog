@@ -1,0 +1,40 @@
+# Creado por https://www.toptal.com/developers/gitignore/api/macos,composer
+# Editar en https://www.toptal.com/developers/gitignore?templates=macos,composer
+
+### Compositor ###
+compositor.phar
+/vendedor/
+
+# Confirme el archivo de bloqueo de su aplicación https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
+# Puede optar por ignorar un archivo de bloqueo de biblioteca http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
+
+### Mac OS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# El icono debe terminar con dos \ r
+Icono
+
+# Miniaturas
+._ *
+
+# Archivos que pueden aparecer en la raíz de un volumen
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+Artículos temporales
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directorios potencialmente creados en el recurso compartido AFP remoto
+.AppleDB
+.AppleDesktop
+Carpeta de basura de red
+Artículos temporales
+.apdisk
+
+# Fin de https://www.toptal.com/developers/gitignore/api/macos,composer
